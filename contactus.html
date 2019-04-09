@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>О компании</title>
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/slick-theme.css">
+	<link rel="stylesheet" href="css/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="css/animate.min.css">
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+	<link href="https://fonts.googleapis.com/css?family=Philosopher:400,700" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<script src="js/bootstrap.min.js"></script>
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/jquery.maskedinput.min.js"></script>
+	<script src="js/popup.js"></script>
+	<script src="js/wow.js"></script>
+
+	<script>
+		new WOW().init();
+	</script>
+
+	<script src="js/parallax.min.js"></script>
+</head>
+<body>
+
+	<nav class="top-menu">
+		<div class="btn-close">&#10008;</div>
+		<ul>
+			<li><a href="../">О компании</a></li>
+			<li><a href="repair.html">Ремонт и поверка</a></li>
+			<li><a href="licenses.html">Лицензии</a></li>
+			<li><a href="contacts.html">Контакты</a></li>
+			<li><a href="contactus.html">Обратная связь</a></li>
+		</ul>
+	</nav>
+	
+	<header class="header">
+		<div class="container">
+			<div class="call-menu"></div>
+					<!-- /.call-menu -->
+			<div class="row">
+				<div class="col-12 col-sm-10 offset-sm-1 offset-md-0 col-md-6 col-xl-6">
+					<a href="../">
+						<div class="logo">
+							<img src="img/logo.png" alt="">
+						</div>
+					</a>
+				</div>
+
+				<div class="col-12 col-md-6 col-xl-6 info">
+					<div class="phone">
+						<span class="content"><a href="tel:88123319880">+7 (812) 331-98-80</a></span>
+						<span class="content"><a href="tel:88123319880">+7 (921) 638-68-84</a></span><br>
+						<span class="content"><a href="mailto:3319880@mail.ru">+7 (921) 966-11-92</a></span>
+						<span class="content"><a href="mailto:3319880@mail.ru">3319880@mail.ru</a></span>
+					</div>
+					<div class="email iblock">
+						<span>Пн. - Пт. 9<sup>00</sup> - 17<sup>00</sup>, Сб. и Вс. - выходные</span>
+					</div>
+					<!-- /.email -->
+
+					<div class="adress iblock">
+						190020, Рижский проспект, д. 18, пом. 4-Н, №10
+					</div>
+					<!-- /.adress -->
+
+				</div>
+			</div>
+			<!-- /.row -->
+		</div>
+		<!-- /.container -->
+
+	</header>
+	<!-- /.header -->
+
+	<div class="navigation">
+		<nav>
+			<div class="container">
+				<ul>
+					<li><a href="../">О компании</a></li>
+					<li><a href="repair.html">Ремонт и поверка</a></li>
+					<li><a href="licenses.html">Лицензии</a></li>
+					<li><a href="contacts.html">Контакты</a></li>
+					<li class="active"><a href="contactus.html">Обратная связь</a></li>
+				</ul>
+			</div>
+			<!-- /.container -->
+		</nav>
+	</div>
+	<!-- /.navigation -->
+
+	<section class="request">
+		<div class="container">
+				<div class="inline">
+					<h2 class="title">Обратная связь</h2>
+					<!-- /.title -->
+
+					<form id="contact" action="PHPMailer/send.php" method="POST" name="contact">
+							<input id="name" class="txt" name="name" type="name" placeholder="Ваше имя (обязательно)" required>
+							<input id="phone" class="txt" name="phone" type="phone" placeholder="Ваш телефон (обязательно)" required> 
+							<input id="email" class="txt" name="email" type="email" placeholder="Ваш e-mail"> 
+							<textarea id="msg" class="txtarea" name="msg" placeholder="Ваше сообщение:"></textarea>
+							<button id="send">Отправить</button>
+					</form>
+
+				</div>
+				<!-- /.inline -->
+			</section>
+			<!-- /.request -->
+		</div>
+		<!-- /.container -->
+
+			<footer class="footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-12 col-xl-10">
+							<span class="copyright">&copy; 2009 - 2019 ООО "Измерительные приборы" - ремонт и поверка контрольно-измерительных приборов и оборудования</span>
+						</div>
+						<!-- /.col-10 -->
+
+						<div class="hidden-xs-down col-xl-2">
+							
+						</div>
+						<!-- /.col-5 -->
+
+					</div>
+					<!-- /.row -->
+				</div>
+				<!-- /.container -->
+			</footer>
+		</body>
+		</html>
